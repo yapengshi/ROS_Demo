@@ -1,0 +1,20 @@
+<launch>
+
+
+<node
+  name="talker_user_command"
+  pkg="usercommand"
+  type="talker"
+  output="screen"
+  launch-prefix="xterm -e">  <!-- open in new window -->
+</node>
+
+
+<node
+    name="listener"
+    pkg="usercommand"
+    type="listener"
+    output="screen">
+</node>
+
+</launch>
