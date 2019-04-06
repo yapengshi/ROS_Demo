@@ -15,7 +15,7 @@ My Computer: Ubuntu 16.04.5 LTS and ROS-Kinetic.
   source devel/setup.bash 
   roslaunch usercommand talker.launch
   ```
-Then we can change the input variables wia key_UP/DOWN/LEFT/RIGHT
+Then we can change the two variables via key_UP/DOWN/LEFT/RIGHT
 Please note it is the for loop, you can change in your idea.
 
   
